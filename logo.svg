@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" viewBox="0 0 2048 2048" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <mask fill="white" id="annulus_sector_0">
+   <path d="M 1024 2048 A 1024 1024 0 1 1 1748.0773439350246 299.9226560649754 L 1024 1024" shape-rendering="geometricPrecision"/>
+  </mask>
+  <mask fill="white" id="annulus_sector_1">
+   <path d="M 1748.0773439350246 299.9226560649754 A 1024 1024 0 0 1 2048 1024 L 1024 1024" shape-rendering="geometricPrecision"/>
+  </mask>
+  <mask fill="white" id="annulus_sector_2">
+   <path d="M 2048 1024 A 1024 1024 0 0 1 1024 2048 L 1024 1024" shape-rendering="geometricPrecision"/>
+  </mask>
+  <mask fill="white" id="center_eye">
+   <circle cx="1024" cy="1024" r="204.8" shape-rendering="geometricPrecision"/>
+  </mask>
+  <g id="furci_eye">
+   <rect fill="rgb(206.58956166495722, 18.94695085319139, 21.44557180645179)" height="2048" mask="url(#annulus_sector_0)" shape-rendering="crispEdges" width="2048"/>
+   <rect fill="rgb(251.10939297211664, 116.00579760762616, 233.87274516515959)" height="2048" mask="url(#annulus_sector_1)" shape-rendering="crispEdges" width="2048"/>
+   <rect fill="rgb(252.93596645863698, 248.88727918786913, 229.98592200263806)" height="2048" mask="url(#annulus_sector_2)" shape-rendering="crispEdges" width="2048"/>
+  </g>
+ </defs>
+ <rect fill="rgb(7.490560892331818, 16.470005156830975, 58.18320907991603)" height="2048" shape-rendering="crispEdges" width="2048"/>
+ <use href="#furci_eye" transform="matrix(1 0 0 1 0 0)"/>
+ <use href="#furci_eye" transform="matrix(-0.200000000000000 0 0 0.200000000000000 1228.80000000000 819.200000000000)"/>
+ <use href="#furci_eye" transform="matrix(0.0400000000000000 0 0 0.0400000000000000 983.040000000000 983.040000000000)"/>
+ <use href="#furci_eye" transform="matrix(-0.00800000000000000 0 0 0.00800000000000000 1032.19200000000 1015.80800000000)"/>
+ <use href="#furci_eye" transform="matrix(0.00160000000000000 0 0 0.00160000000000000 1022.36160000000 1022.36160000000)"/>
+ <use href="#furci_eye" transform="matrix(-0.000320000000000000 0 0 0.000320000000000000 1024.32768000000 1023.67232000000)"/>
+ <circle cx="1024" cy="1024" fill="rgb(7.490560892331818, 16.470005156830975, 58.18320907991603)" r="0.0655360000000000" shape-rendering="geometricPrecision"/>
+</svg>
